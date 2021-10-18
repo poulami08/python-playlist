@@ -9,7 +9,7 @@ class employee:
 
     @totalsalary.setter
     def totalsalary(self, val):
-        self.salarybonus = val - self.salary
+         self.salarybonus = val - self.salary
 
 e = employee()
 print(e.totalsalary)
