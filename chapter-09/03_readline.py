@@ -1,4 +1,4 @@
-f = open("chapter-9/sample.txt","r")
+f = open("python_course/chapter-09/sample.txt","r")
 
 #read first line
 text=f.readline()

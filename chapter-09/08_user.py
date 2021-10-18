@@ -4,14 +4,14 @@ def game():
     return 6
 
 score = game()
-with open("chapter-9/Hiscore.txt","r") as f:
+with open("python_course/chapter-09/Hiscore.txt","r") as f:
     a =f.read()
 
 
 if a=="":
-    with open("chapter-9/Hiscore.txt","w") as f:
+    with open("python_course/chapter-09/Hiscore.txt","w") as f:
         f.write(str(score))
 elif int(a)<score :
-    with open("chapter-9/Hiscore.txt","w") as f:
+    with open("python_course/chapter-09/Hiscore.txt","w") as f:
         f.write(str(score))  
 

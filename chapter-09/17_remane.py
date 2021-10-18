@@ -1,7 +1,7 @@
 # Write a python program to rename a file to “renamed_by_python.txt.”
 import os
-old="chapter-9/rename.txt"
-new ="chapter-9/renamed_by_python.txt"
+old="python_course/chapter-09/rename.txt"
+new ="python_course/chapter-09/renamed_by_python.txt"
 
 with open(old) as f:
     t=f.read()

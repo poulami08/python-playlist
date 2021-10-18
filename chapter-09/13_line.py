@@ -1,7 +1,7 @@
 # Write a program to find out the line number where python is present from question 6.
 text= True
 i=1
-with open("chapter-9/log.txt","r") as f:
+with open("python_course/chapter-09/log.txt","r") as f:
     
     while text:
         text= f.readline().lower()

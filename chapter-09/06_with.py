@@ -1,5 +1,5 @@
-with open("chapter-9/another.txt","r") as f:
+with open("python_course/chapter-09/another.txt","r") as f:
     a = f.read()
-with open("chapter-9/another.txt","w") as f:
+with open("python_course/chapter-09/another.txt","w") as f:
     a = f.write("me")
 print(a)
